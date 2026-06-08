@@ -37,7 +37,7 @@ class Game_Logic:
 
             if user_input.lower() == 'q':
                 print("Goodbye!")
-                break # A pontosvesszőt kivettem, Pythonban nem kell
+                break 
 
             try:
                 player_move = Move(int(user_input))
